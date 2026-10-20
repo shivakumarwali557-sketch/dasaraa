@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07150b">
+<title>ಶುಭ ದಸರಾ | ಬನ್ನಿ ತಗೊಂಡು ಬಂಗಾರದಂಗ ಇರೋಣ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#ffd43b;--gold2:#e9a900;--green:#092512;--cream:#fff8df;--ink:#102916}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Noto Sans Kannada",system-ui,sans-serif;background:#061109;color:#fff}
+a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:13px clamp(18px,5vw,72px);background:rgba(3,10,5,.94);border-bottom:1px solid #a87b13;backdrop-filter:blur(12px)}
+.brand{display:flex;align-items:center;gap:12px;color:var(--gold);font-weight:800;font-size:clamp(20px,3vw,34px)}
+.brand .leaf{font-size:32px}
+.navlinks{display:flex;gap:clamp(12px,3vw,35px);font-size:14px}
+.navlinks a:hover{color:var(--gold)}
+.hero{min-height:590px;position:relative;overflow:hidden;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;padding:65px clamp(22px,7vw,100px);background:radial-gradient(ellipse at 78% 35%,#244b20 0%,#0c2511 32%,#030a05 72%)}
+.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 15% 20%,#ffffff10 0 1px,transparent 2px),radial-gradient(circle at 35% 70%,#f8d44b20 0 2px,transparent 3px);background-size:65px 65px,95px 95px;pointer-events:none}
+.hero-copy{position:relative;z-index:2;max-width:720px}
+.eyebrow{color:var(--gold);letter-spacing:2px;font-size:clamp(15px,2vw,20px);font-weight:700}
+h1{font-size:clamp(34px,5.5vw,67px);line-height:1.38;margin:20px 0;color:var(--gold);text-shadow:0 3px 25px #e7ad2433}
+.subtitle{font-size:clamp(17px,2vw,22px);line-height:1.9;max-width:580px;color:#f6f3e9}
+.buttons{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 24px;border-radius:999px;font:700 16px "Noto Sans Kannada",sans-serif;cursor:pointer;border:1px solid var(--gold);transition:.2s}
+.btn.primary{background:var(--gold);color:#13220e;box-shadow:0 8px 30px #ffd43b20}
+.btn.secondary{background:transparent;color:var(--gold)}
+.btn:hover{transform:translateY(-3px);filter:brightness(1.08)}
+.leaf-scene{min-height:390px;display:flex;align-items:center;justify-content:center;position:relative}
+.glow{position:absolute;width:min(36vw,360px);aspect-ratio:1;border-radius:50%;background:#70a92c20;filter:blur(35px)}
+.leaf-card{position:relative;width:min(360px,85%);height:360px;border:1px solid #d6b43a77;border-radius:48% 48% 38% 38%;background:linear-gradient(145deg,#173b1e,#06130a 75%);display:flex;align-items:center;justify-content:center;box-shadow:0 25px 90px #0009,inset 0 0 35px #9ec34b12}
+.leaf-art{font-size:clamp(100px,17vw,170px);filter:drop-shadow(0 10px 16px #0008);transform:rotate(-14deg)}
+.floating{position:absolute;color:var(--gold);font-size:30px;animation:float 5s ease-in-out infinite}
+.f1{top:12%;left:8%}.f2{right:2%;top:25%;animation-delay:1s}.f3{bottom:8%;left:18%;animation-delay:2s}.f4{right:9%;bottom:15%;animation-delay:1.5s}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-10deg)}50%{transform:translateY(-18px) rotate(12deg)}}
+.section{padding:55px clamp(20px,6vw,80px)}
+.cream{background:var(--cream);color:var(--ink)}
+.section-title{text-align:center;font-size:clamp(25px,3.4vw,38px);margin:0 0 12px;color:inherit}
+.section-intro{text-align:center;max-width:760px;margin:0 auto 32px;line-height:1.9}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1200px;margin:auto}
+.card{padding:25px 20px;text-align:center;border-right:1px solid #d6c99e}
+.card:last-child{border:0}
+.icon{width:76px;height:76px;margin:0 auto 15px;border-radius:50%;background:#092512;color:var(--gold);display:grid;place-items:center;font-size:34px}
+.card h3{font-size:19px;margin:10px 0}
+.card p{line-height:1.9;margin:0;font-size:15px}
+.callout{background:radial-gradient(ellipse at 70% 40%,#17451e,#041007 70%);text-align:center;position:relative;overflow:hidden}
+.callout:after{content:"🌿　🍃　🌿　🍃　🌿";position:absolute;bottom:12px;left:0;width:100%;font-size:30px;opacity:.25;letter-spacing:15px}
+.callout h2{font-size:clamp(27px,4vw,44px);color:var(--gold);margin:0 0 14px}
+.callout p{max-width:760px;margin:0 auto 25px;line-height:2;font-size:18px}
+.wish{max-width:850px;margin:0 auto;text-align:center;border:1px solid #d5a91e80;border-radius:22px;padding:30px;background:#0003}
+.wish h3{font-size:clamp(26px,4vw,42px);color:var(--gold);margin:0 0 12px}
+.wish p{line-height:2;font-size:17px}
+footer{border-top:1px solid #9e7616;text-align:center;padding:25px 16px;background:#020704;color:#f5cc3e}
+footer small{display:block;margin-top:8px;color:#ddd2a6}
+#toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,130px);z-index:20;background:var(--cream);color:#102916;padding:15px 22px;border-radius:14px;box-shadow:0 8px 30px #0007;transition:transform .35s;text-align:center;max-width:90vw}
+#toast.show{transform:translate(-50%,0)}
+@media(max-width:800px){.nav{align-items:flex-start;flex-direction:column}.navlinks{width:100%;overflow:auto;padding-bottom:3px}.hero{grid-template-columns:1fr;padding-top:48px}.leaf-scene{min-height:320px}.leaf-card{height:290px}.cards{grid-template-columns:repeat(2,1fr)}.card:nth-child(2){border-right:0}.card:nth-child(3),.card:nth-child(4){border-top:1px solid #d6c99e;padding-top:28px}}
+@media(max-width:480px){.navlinks{font-size:12px;gap:16px}.hero{padding-left:20px;padding-right:20px}.leaf-scene{min-height:260px}.leaf-card{height:235px;width:235px}.cards{grid-template-columns:1fr}.card{border-right:0;border-bottom:1px solid #d6c99e;padding:25px 8px}.card:last-child{border-bottom:0}.buttons .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home"><span class="leaf">🌿</span><span>ಶುಭ ದಸರಾ</span> ✨</a>
+  <nav class="navlinks" aria-label="ಮುಖ್ಯ ಮೆನು">
+    <a href="#home">ಮುಖಪುಟ</a><a href="#tradition">ಬನ್ನಿ ಸಂಪ್ರದಾಯ</a><a href="#wishes">ಶುಭಾಶಯಗಳು</a><a href="#share">ಹಂಚಿಕೊಳ್ಳಿ</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow">✦ ಕರ್ನಾಟಕದ ಪರಂಪರೆ • ವಿಜಯದ ಹಬ್ಬ ✦</div>
+    <h1>ಬನ್ನಿ ತಗೊಂಡು<br>ಬಂಗಾರದಂಗ ಇರೋಣ!</h1>
+    <p class="subtitle">ಸ್ನೇಹದಿಂದ ವಿಜಯದ ಹಬ್ಬವನ್ನು ಮತ್ತಷ್ಟು ಸುಂದರವಾಗಿಸೋಣ. ಬನ್ನಿ ಎಲೆಗಳಂತೆ ನಮ್ಮ ಬದುಕು ಹಸಿರಾಗಿ, ಬಂಗಾರದಂತೆ ಹೊಳೆಯಲಿ. 💛</p>
+    <div class="buttons">
+      <a class="btn primary" href="#wishes">🌿 ಶುಭಾಶಯ ನೋಡಿ</a>
+      <button class="btn secondary" id="shareTop">↗ ಶುಭಾಶಯ ಹಂಚಿಕೊಳ್ಳಿ</button>
+    </div>
+  </div>
+  <div class="leaf-scene" aria-label="ಬನ್ನಿ ಎಲೆಗಳ ಅಲಂಕಾರ">
+    <div class="glow"></div><div class="leaf-card"><span class="leaf-art">🌿</span></div>
+    <span class="floating f1">✦</span><span class="floating f2">🍃</span><span class="floating f3">✧</span><span class="floating f4">🌱</span>
+  </div>
+</section>
+
+<section class="section cream" id="tradition">
+  <h2 class="section-title">🌿 ಬನ್ನಿ ಹಂಚುವ ಸಂಪ್ರದಾಯ 🌿</h2>
+  <p class="section-intro">ದಸರಾ ಹಬ್ಬದಂದು ಬನ್ನಿ ಎಲೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ಪ್ರೀತಿ, ಗೌರವ, ಸಮೃದ್ಧಿ ಮತ್ತು ಒಳ್ಳೆಯ ಹಾರೈಕೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವ ಸುಂದರ ಸಂಪ್ರದಾಯ.</p>
+  <div class="cards">
+    <article class="card"><div class="icon">🌱</div><h3>ಬನ್ನಿ ಮರ</h3><p>ಬನ್ನಿ ಎಲೆಗಳು ವಿಜಯದ ಸಂಕೇತ. ಈ ಸಂಪ್ರದಾಯವು ಪ್ರಕೃತಿಯೊಂದಿಗೆ ನಮ್ಮ ನಂಟನ್ನು ನೆನಪಿಸುತ್ತದೆ.</p></article>
+    <article class="card"><div class="icon">💛</div><h3>ಬಂಗಾರದ ಸಂಕೇತ</h3><p>ಬನ್ನಿ ಎಲೆಗಳನ್ನು ಬಂಗಾರವೆಂದು ಪರಿಗಣಿಸಿ ಪರಸ್ಪರ ಹಂಚಿ ಶುಭ ಹಾರೈಸುವ ರೂಢಿಯಿದೆ.</p></article>
+    <article class="card"><div class="icon">🤝</div><h3>ಸ್ನೇಹ ಮತ್ತು ಬಂಧುತ್ವ</h3><p>ಕುಟುಂಬದವರು, ಸ್ನೇಹಿತರು ಮತ್ತು ನೆರೆಹೊರೆಯವರೊಂದಿಗೆ ಪ್ರೀತಿ ಹಾಗೂ ಗೌರವವನ್ನು ಹಂಚಿಕೊಳ್ಳೋಣ.</p></article>
+    <article class="card"><div class="icon">🏰</div><h3>ನಮ್ಮ ದಸರಾ</h3><p>ಕರ್ನಾಟಕದ ಸಾಂಸ್ಕೃತಿಕ ಹೆಮ್ಮೆ ಮತ್ತು ಸಂಪ್ರದಾಯಗಳನ್ನು ಮುಂದಿನ ಪೀಳಿಗೆಗೂ ಕೊಂಡೊಯ್ಯೋಣ.</p></article>
+  </div>
+</section>
+
+<section class="section callout" id="wishes">
+  <h2>ಬನ್ನಿ ಹಂಚಿ, ಪ್ರೀತಿ ಹಂಚಿ! 🌿</h2>
+  <p>ನಿಮ್ಮ ಬದುಕಿನಲ್ಲಿ ಸಂತೋಷ, ಆರೋಗ್ಯ, ಯಶಸ್ಸು ಮತ್ತು ಸಮೃದ್ಧಿ ತುಂಬಿರಲಿ. ಈ ವಿಜಯದಶಮಿ ನಿಮ್ಮೆಲ್ಲ ಕನಸುಗಳಿಗೆ ಹೊಸ ಆರಂಭವಾಗಲಿ.</p>
+  <div class="wish">
+    <h3>ಶುಭ ವಿಜಯದಶಮಿ! ✨</h3>
+    <p>ಬನ್ನಿ ತಗೊಂಡು ಬಂಗಾರದಂಗ ಇರೋಣ,<br>ಪ್ರೀತಿ ಹಂಚಿ ಸಂತೋಷದಿಂದ ಬಾಳೋಣ!<br><strong>ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೂ ಹಬ್ಬದ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು.</strong></p>
+    <button class="btn primary" id="copyWish">📋 ಶುಭಾಶಯ ಕಾಪಿ ಮಾಡಿ</button>
+  </div>
+</section>
+
+<section class="section cream" id="share">
+  <h2 class="section-title">ನಿಮ್ಮವರಿಗೂ ಬಂಗಾರದ ಶುಭಾಶಯ ಕಳುಹಿಸಿ 💛</h2>
+  <p class="section-intro">ಒಂದು ಚಿಕ್ಕ ಶುಭಾಶಯವೂ ಯಾರದೋ ದಿನವನ್ನು ಸುಂದರಗೊಳಿಸಬಹುದು. ಈ ದಸರಾ ಸಂತೋಷವನ್ನು ನಿಮ್ಮ ಸ್ನೇಹಿತರು ಮತ್ತು ಕುಟುಂಬದವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.</p>
+  <div style="text-align:center"><button class="btn primary" id="whatsapp">🟢 WhatsApp ನಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ</button></div>
+</section>
+</main>
+<footer>
+  <div style="font-size:30px">🌿 ಶುಭ ದಸರಾ 🌿</div>
+  <div>ಬನ್ನಿ ತಗೊಂಡು ಬಂಗಾರದಂಗ ಇರೋಣ!</div>
+  <small>ಪ್ರೀತಿ • ಪರಂಪರೆ • ಸಮೃದ್ಧಿ &nbsp; | &nbsp; Happy Dasara</small>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+const greeting = "🌿 ಶುಭ ವಿಜಯದಶಮಿ! 🌿\\nಬನ್ನಿ ತಗೊಂಡು ಬಂಗಾರದಂಗ ಇರೋಣ, ಪ್ರೀತಿ ಹಂಚಿ ಸಂತೋಷದಿಂದ ಬಾಳೋಣ! ನಿಮಗೂ ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೂ ಹಬ್ಬದ ಹಾರ್ದಿಕ ಶುಭಾಶಯಗಳು. 💛✨";
+const toast = document.getElementById("toast");
+let toastTimer;
+function notify(message){toast.textContent=message;toast.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove("show"),2600)}
+async function shareGreeting(){
+  if(navigator.share){try{await navigator.share({title:"ಶುಭ ದಸರಾ",text:greeting,url:location.href})}catch(e){}}
+  else if(navigator.clipboard){try{await navigator.clipboard.writeText(greeting+"\\n"+location.href);notify("ಶುಭಾಶಯ ಕಾಪಿ ಆಗಿದೆ! ಈಗ ಸ್ನೇಹಿತರಿಗೆ ಕಳುಹಿಸಿ.");}catch(e){notify(greeting)}}
+  else {notify("ಶುಭ ದಸರಾ! ಬನ್ನಿ ತಗೊಂಡು ಬಂಗಾರದಂಗ ಇರೋಣ!")}
+}
+document.getElementById("shareTop").addEventListener("click",shareGreeting);
+document.getElementById("copyWish").addEventListener("click",async()=>{
+ try{await navigator.clipboard.writeText(greeting);notify("ಶುಭಾಶಯ ಕಾಪಿ ಆಗಿದೆ! 💛")}
+ catch(e){notify(greeting)}
+});
+document.getElementById("whatsapp").addEventListener("click",()=>{
+ const message=encodeURIComponent(greeting+"\\n"+location.href);
+ window.open("https://wa.me/?text="+message,"_blank","noopener,noreferrer");
+});
+</script>
+</body>
+</html>
